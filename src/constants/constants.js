@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Word Hunter",
     description:
-      "Using React, Material Ui and axios to build a simple translating website that fetches a data from an api, returns a beautifuly designed website with the light mode feature",
+      "Using React, Material Ui and axios to build a simple translating website that fetches a data from an api, returns a beautifuly designed website with the light mode feature, It supports 16 different languages as well as supporting Verbal speech for English",
     image: "/images/word hunter.jpg",
     tags: ["React", "Material UI", "axios"],
     source: "https://github.com/targerian/word-hunter",
