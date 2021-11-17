@@ -28,17 +28,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects'>
+        <Link href='/My-Portofolio/#projects'>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#tech'>
+        <Link href='/My-Portofolio/#tech'>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#about'>
+        <Link href='/My-Portofolio/#about'>
           <NavLink>About</NavLink>
         </Link>
       </li>
