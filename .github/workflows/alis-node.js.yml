@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
@@ -26,9 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build
-    - run: npm run export
+    - run: yarn && yarn build && yarn export
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.5
